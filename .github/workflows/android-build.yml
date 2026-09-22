@@ -12,7 +12,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Set up JDK 17
-        uses: actions/setup-java@v4
+        uses: actions/setup-java@v5
         with:
           distribution: temurin
           java-version: '17'
@@ -22,8 +22,10 @@ jobs:
         with:
           gradle-version: '8.7'
 
-      - name: Set up Android SDK
-        uses: android-actions/setup-android@v3
+      # GitHub 的 runner 自带 Android SDK,这里确保许可证已接受,
+      # AGP 在编译时会自动补装本项目需要的 android-34 等组件。
+      - name: Accept Android SDK licenses
+        run: yes | sdkmanager --licenses >/dev/null 2>&1 || true
 
       - name: Assemble debug APK
         run: gradle assembleDebug --no-daemon
