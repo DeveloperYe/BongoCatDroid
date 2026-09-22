@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- 圆角背景 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M20,10 h68 a14,14 0 0 1 14,14 v68 a14,14 0 0 1 -14,14 h-68 a14,14 0 0 1 -14,-14 v-68 a14,14 0 0 1 14,-14 z" />
+    <!-- 猫脑袋（橙色圆） -->
+    <path
+        android:fillColor="#F2A03D"
+        android:pathData="M54,34 m-22,0 a22,22 0 1 1 44,0 a22,22 0 1 1 -44,0" />
+    <!-- 左耳 -->
+    <path
+        android:fillColor="#F2A03D"
+        android:pathData="M36,32 L24,14 L40,22 z" />
+    <!-- 右耳 -->
+    <path
+        android:fillColor="#F2A03D"
+        android:pathData="M72,32 L84,14 L68,22 z" />
+    <!-- 左眼 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M46,34 m-5,0 a5,5 0 1 1 10,0 a5,5 0 1 1 -10,0" />
+    <path
+        android:fillColor="#222222"
+        android:pathData="M47,35 m-2.4,0 a2.4,2.4 0 1 1 4.8,0 a2.4,2.4 0 1 1 -4.8,0" />
+    <!-- 右眼 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M62,34 m-5,0 a5,5 0 1 1 10,0 a5,5 0 1 1 -10,0" />
+    <path
+        android:fillColor="#222222"
+        android:pathData="M63,35 m-2.4,0 a2.4,2.4 0 1 1 4.8,0 a2.4,2.4 0 1 1 -4.8,0" />
+    <!-- 鼻子 -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M54,41 L56,43 L52,43 z" />
+</vector>

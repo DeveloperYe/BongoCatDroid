@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BongoCat 安卓宠物</string>
+    <string name="start_pet">开启悬浮宠物</string>
+    <string name="stop_pet">关闭宠物</string>
+    <string name="overlay_permission_title">需要悬浮窗权限</string>
+    <string name="overlay_permission_msg">请允许本应用在所有应用之上显示，这样猫咪才能蹲在屏幕上陪你。</string>
+    <string name="open_settings">去授权</string>
+    <string name="global_touch_title">全局触摸反应（可选）</string>
+    <string name="global_touch_msg">开启无障碍服务后，你点击屏幕任意位置，猫咪都会转头看一眼。</string>
+    <string name="enable_global_touch">去开启无障碍</string>
+    <string name="permission_denied">权限未授予，宠物无法显示。</string>
+    <string name="pet_running">宠物已经在跑了</string>
+    <string name="pet_stopped">宠物已经关闭</string>
+    <string name="global_touch_desc">喵——猫咪想看看你在屏幕哪里敲东西。</string>
+    <string name="drag_hint">拖动猫咪随意移动</string>
+</resources>

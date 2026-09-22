@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="cat_orange">#F2A03D</color>
+    <color name="cat_belly">#FFF3D6</color>
+    <color name="paw_pink">#F6C5C5</color>
+    <color name="bg_window">#00000000</color>
+</resources>
